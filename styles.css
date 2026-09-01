@@ -16,11 +16,17 @@ h1 {
 }
 
 a {
-    color: blue;
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #2b6cb0;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 12px;
 }
 
-.favorite {
-    color: crimson;
+a:hover {
+    background-color: #2c5282
 }
 
 ul {
@@ -31,5 +37,6 @@ ul {
 }
 
 li {
+    display: inline;
     margin-bottom: 8px;
 }
